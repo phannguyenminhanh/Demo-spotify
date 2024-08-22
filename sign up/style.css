@@ -1,0 +1,66 @@
+
+body {  
+    color: #241d1d4e;  
+    color: rgb(225, 120, 120);  
+    font-family: Arial, sans-serif;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    margin: 0;  
+}  
+
+.container{
+width: 1000px;
+margin: 0 auto;
+}
+.row{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 10px;
+}
+
+.form-main{ 
+display: flex;
+flex-direction: column;    
+margin-top: 100px;
+    background-color: #1f1f1f;
+    box-shadow: rgba(79, 236, 121, 0.2) 0px 8px 24px;
+    border: 1px solid #3bf55a;
+    border-radius: 10px;
+    padding: 20px;
+}
+.form-title{
+text-align: center;
+}
+
+
+.label{
+font-size: 16px;
+font-weight: 600;
+}
+.input{
+/* width:  calc( 100% - 4% ); */
+height: 30px;
+font-size: 16px;
+border-radius: 5px;
+border: none;
+padding-left: 10px;
+}
+.password-container {  
+    position: relative;  
+    width: 300px;  
+}  
+
+input[type="password"] {  
+    width: 100%;  
+    padding: 10px;  
+    padding-right: 40px; /* Để có không gian cho biểu tượng */  
+}  
+
+.toggle-password {  
+    position: absolute;  
+    right: 10px;  
+    top: 10px;  
+    cursor: pointer;  
+}
+
